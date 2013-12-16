@@ -1,0 +1,838 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-image: url('images/mainBack.png');
+	background-color: #f5f5f5;
+	background-repeat: repeat-x;
+	font-family: Times New Roman, Arial;
+	text-align: center;
+}
+
+.end {
+	clear: both;
+}
+
+input[placeholder] {
+	text-align: center;
+}
+
+.salePrice {
+	color: red;
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+}
+
+ul {
+	display: inline;
+}
+
+img {
+	border: none;
+}
+
+td {
+	text-align: center;
+}
+
+.invButtons form input[type="image"] {
+	height: 22px;
+	width: 22px;
+	display: inline-block;
+}
+
+.invButtons form {
+	display: inline;
+}
+
+a:link,a:visited {
+	color: gray;
+}
+
+a:hover,a:active {
+	color: white;
+}
+
+.right {
+	text-align: right;
+}
+
+#genreNavBar a:link,#genreNavBar a:visited {
+	display: block;
+	float: left;
+	width: 75px;
+	text-decoration: none;
+	background-color: #444444;
+	color: white;
+	border-right: 1px solid white;
+	/* 	border-radius: 10px; */
+}
+
+#genreNavBar a:hover,#genreNavBar a:active {
+	background-color: white;
+	color: #444444;
+	-moz-box-shadow: 0px 3px 2px #cc0000;
+	-webkit-box-shadow: 0px 3px 2px #cc0000;
+	box-shadow: 0px 3px 2px #cc0000;
+	/* 	border-bottom: 5px solid #cc0000; */
+}
+
+#topNavLogo {
+	width: 75px;
+	height: 25px;
+	float: left;
+}
+
+#topSearchLogo {
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+
+#topNavSearchBar {
+	float: left;
+	margin-left: 10px;
+	height: 25px;
+}
+
+#topNavCart {
+	float: right;
+	height: 25px;
+	margin-right: 15px;
+}
+
+#topNavLogin {
+	display: inline;
+	float: right;
+	height: 25px;
+	margin-right: 15px;
+}
+
+#topNavWelcome {
+	float: right;
+	height: 25px;
+	margin-right: 15px;
+}
+
+#header {
+	margin: auto;
+	width: 800px;
+	margin-top: 50px;
+	text-align: left;
+	height: 156px;
+}
+
+#logoDiv {
+	width: 400px;
+	float: left;
+	height: 156px;
+}
+
+#slider {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 200px;
+	text-align: left;
+	clear: both;
+	background-color: #eeeff3;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	padding: 20px;
+	-webkit-box-shadow: 0px 5px 11px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow: 0px 5px 11px rgba(50, 50, 50, 0.55);
+	box-shadow: 0px 5px 11px rgba(50, 50, 50, 0.55);
+	border: 10px solid #444444;
+	width: 800px;
+}
+
+#sliderLeftArrow {
+	text-align: left;
+	position: absolute;
+	top: 95px;
+	left: -70px;
+}
+
+#sliderRightArrow {
+	position: absolute;
+	top: 95px;
+	left: 860px;
+}
+
+#genreNavBar {
+	width: 490px;
+	height: 50px;
+	clear: both;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+
+#contentWrap {
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	text-align: left;
+}
+
+#contentWrap h3 {
+	margin-top: 15px;
+}
+
+#mainContent {
+	width: 600px;
+	min-height: 250px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+#rightNav {
+	width: 180px;
+	min-height: 250px;
+	float: left;
+	margin-left: 20px;
+}
+
+#footer {
+	padding-top: 15px;
+	margin: auto;
+	clear: both;
+	width: 100%;
+	background-image: url('images/footerGradient.png');
+	background-repeat: repeat-x;
+	background-color: #444444;
+	min-height: 175px;
+}
+
+#footerContainer {
+	width: 500px;
+	margin: auto;
+}
+
+#footerLogo {
+	text-align: right;
+	float: left;
+}
+
+#footerContent {
+	float: left;
+	text-align: left;
+}
+
+#footerContent .block {
+	float: left;
+	margin-right: 20px;
+}
+
+#footerContent h2 {
+	font-size: large;
+	font-family: Cambria;
+	text-shadow: 1px 1px #555;
+}
+
+#footerContent a:link,#footerContent a:visited,#topNav a:link,#topNav a:visited
+	{
+	text-decoration: none;
+	color: white;
+}
+
+#footerContent a:hover,#footerContent a:active,#topNav a:hover,#topNav a:active
+	{
+	color: black;
+}
+
+#footerBottom {
+	clear: both;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	padding-top: 30px;
+	margin: auto;
+	background-image: url('images/footerLine.png');
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+
+#contentWrap .block {
+	width: 170px;
+	text-align: center;
+	min-height: 100px;
+	background-color: #eeeff3;
+	margin-bottom: 30px;
+	-webkit-box-shadow: -1px 1px 12px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow: -1px 1px 12px rgba(50, 50, 50, 0.55);
+	box-shadow: -1px 1px 12px rgba(50, 50, 50, 0.55);
+	border: 3px solid #444444;
+	background-image: url('images/contentBlockBack.png');
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	border-radius: 15px;
+	min-height: 100px;
+}
+
+#mainContent .block {
+	width: 575px;
+	text-align: center;
+}
+
+#contentWrap .block h2 {
+	width: 95%;
+	margin: 0px;
+	font-size: large;
+	text-align: left;
+	padding-left: 5%;
+	font-family: Cambria;
+	font-weight: bold;
+	text-shadow: 1px 1px #888;
+	color: white;
+	background-color: #444444;
+	background-image: url('images/headingBack.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#rightNav .block h2 {
+	width: 85%;
+	padding-left: 15%;
+}
+
+div .inBlock {
+	padding: 10px;
+}
+
+.ads {
+	width: 100%;
+	height: auto;
+}
+
+.block ul {
+	list-style-type: none;
+}
+
+.block li {
+	text-align: left;
+}
+
+.block p {
+	text-align: left;
+}
+
+#info {
+	margin-bottom: 10px;
+}
+
+#info h4 {
+	margin-left: 170px;
+}
+
+#info ul {
+	list-style-type: none;
+}
+
+#info li {
+	text-align: left;
+	margin-left: 170px;
+}
+
+#info img {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-top: 40px;
+}
+
+#info .bouton a {
+	height: 30px;
+	border: 1px solid black;
+	width: 150px;
+	float: left;
+	display: inline;
+	margin-right: 15px;
+	border-radius: 7px;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle; /* doesn't work, I want to center the text*/
+}
+
+#info .bouton a:hover {
+	background-color: white;
+}
+
+#list_track { /* 	margin-bottom: 15px; */
+	width: 100%;
+	/* 	margin-left: -20px; */
+	/* 	margin-right: -20px; */
+}
+
+#trackReviewBlock {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px dotted #444;
+	margin-bottom: 5px;
+}
+
+#track_reviews h4 {
+	font-size: large;
+	text-align: left;
+	margin-left: -2px;
+	font-family: Times New Roman;
+	color: black;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: large;
+	text-align: left;
+	margin-left: -2px;
+	font-family: Times New Roman;
+	border-bottom: 1px dotted #444;
+	color: #444;
+	margin-bottom: 5px;
+	/* 	background-color: #444444; */
+}
+
+h4 {
+	font-size: large;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: #CCC;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#news h4 {
+	background-color: transparent;
+	border-radius: 0px;
+}
+
+#cart h4 {
+	background-color: transparent;
+}
+
+#list_track th {
+	border: none;
+	background-color: #444;
+	color: white;
+	font-family: Cambria;
+	margin: 0px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-family: Cambria;
+}
+
+#list_track td {
+	border: none;
+	margin: 0px;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+#list_track table {
+	width: 100%;
+	word-wrap: break-word;
+	border: 1px solid black;
+	/* 	margin-left: 20px; */
+}
+
+#list_track .tr2 {
+	background-color: #D3D5E7;
+}
+
+#final a {
+	text-decoration: none;
+	margin-left: 180px;
+}
+
+#review form {
+	text-align: left;
+}
+
+#review form img {
+	height: 17px;
+	width: 17px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+#review a {
+	margin-left: 335px;
+	text-decoration: none;
+}
+
+#review h4 {
+	margin-bottom: 15px;
+	text-align: left;
+	margin-left: 170px;
+}
+
+h5 {
+	font-size: medium;
+	margin-top: 15px;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+h5 img {
+	width: 70px;
+	float: right;
+}
+
+h5 i {
+	font-weight: normal;
+	color: #444;
+}
+
+tr img {
+	width: 70px;
+}
+
+tr a img {
+	height: 22px;
+	width: 22px;
+	display: inline-block;
+}
+
+#conf_final a {
+	text-decoration: none;
+}
+
+#conf_final {
+	margin-top: 20px;
+}
+
+#list_shop th {
+	border: none;
+	background-color: #444;
+	color: white;
+	font-family: Cambria;
+	margin: 0px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+#list_shop td {
+	border: none;
+	margin: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#list_shop table {
+	margin: 7px;
+	border: 1px solid black;
+}
+
+#list_shop .tr2 {
+	background-color: #D3D5E7;
+}
+
+.buttonGroup {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.buttonGroup form {
+	display: inline;
+}
+
+.buttonGroup input[type=submit],.buttonGroup input[type=button],.buttonGroup input[type=reset] {
+	height: 30px;
+/* 	border: 1px solid black; */
+	width: 150px;
+	margin-top: 10px;
+	border-radius: 7px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	background-color: #CCC;
+	font-weight: bold;
+}
+
+.buttonGroup a {
+	text-decoration: none;
+}
+
+.buttonGroup input[type=submit]:hover,.buttonGroup input[type=button]:hover,.buttonGroup input[type=reset]:hover
+	{
+	border-top: 2px solid #8c8c8c;
+	border-left: 2px solid #8c8c8c;
+	border-bottom: 2px solid #f9f9f9;
+	border-right: 2px solid #f9f9f9;
+	color: #444;
+	background-color: #EEE;
+	font-weight: bold;
+}
+
+#total {
+	text-align: right;
+	margin-right: 125px;
+}
+
+#searchform {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#list_search th {
+	border: none;
+	background-color: #444;
+	color: white;
+	font-family: Cambria;
+	margin: 0px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-family: Cambria;
+}
+
+#list_search td {
+	border: none;
+	margin: 0px;
+	padding: 3px;
+	word-wrap: break-word;
+}
+
+#list_search table {
+	word-wrap: break-word;
+	border: 1px solid black;
+}
+
+#list_search .tr2 {
+	background-color: #D3D5E7;
+}
+
+#list_search a {
+	text-decoration: none;
+	color: #444;
+	font-size: normal;
+}
+
+#list_search b {
+	font-size: large;
+}
+
+#list_search a:hover {
+	color: black;
+	font-size: large;
+}
+
+#list_invoice  th {
+	border: none;
+	background-color: #444;
+	color: white;
+	font-family: Cambria;
+	margin: 0px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#list_invoice td {
+	border: none;
+	margin: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#list_invoice table {
+	width: 100%;
+	margin: 7px;
+	border: 1px solid black;
+}
+
+#list_invoice .tr2 {
+	background-color: #D3D5E7;
+}
+
+#list_invoice .bouton a {
+	height: 30px;
+	border: 1px solid black;
+	width: 150px;
+	float: left;
+	display: inline;
+	margin-right: 15px;
+	border-radius: 7px;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle; /* doesn't work, I want to center the text*/
+}
+
+#list_invoice .bouton a:hover {
+	background-color: white;
+}
+
+#list_invoice .bouton {
+	margin-bottom: 50px;
+}
+
+#list_invoice #total {
+	text-align: right;
+	margin-right: 125px;
+}
+
+#sug,#sale {
+	margin-bottom: 65px;
+}
+
+.sug_alb {
+	text-align: left;
+	float: left;
+	width: 185px;
+	padding: 0px;
+}
+
+.sug_alb h5 {
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+.sug_alb img,.sug_ico input[type="image"] {
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-right: 3px;
+}
+
+.sug_ico img,.sug_ico input[type="image"] {
+	width: 22px;
+	height: 22px;
+}
+
+.sub_ico form,.slider_ico form {
+	display: inline;
+}
+
+#contentWrap input[placeholder] {
+	font-size: large;
+}
+
+.block .bulletList li {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+textarea {
+	resize: none;
+	text-align: left;
+}
+
+#noRatingText {
+	float: right;
+}
+
+#trackBottomText {
+	clear: both;
+}
+
+#topNav {
+	height: 25px;
+	width: 100%;
+	background-image: url('images/topNavGradient.png');
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	background-color: #333;
+	color: white;
+	position: fixed;
+	top: 0px;
+	padding: 5px 10px 5px 10px;
+	z-index: 1000;
+	font-size: medium;
+}
+
+#leftOfLogoDiv {
+	float: left;
+	width: 400px;
+	color: white;
+	top: 35px;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 68%;
+	background-color: gray;
+	border: solid 2px #c3c3c3;
+	border-radius: 0px 0px 15px 15px;
+	z-index: 500;
+	height: auto;
+	position: fixed;
+}
+
+#loginDiv input {
+	margin: 2px;
+}
+
+#loginDiv h4 {
+	margin-bottom: 5px;
+}
+
+#finalizationDiv {
+	text-align: left;
+}
+
+#errorPageDiv {
+	width: 65%;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#leftErrorPageDiv {
+	float: left;
+	text-align: right;
+	width: 50%;
+}
+
+#rightErrorPageDiv {
+	float: right;
+	text-align: left;
+	width: 50%;
+}
+
+.listPrice {
+	text-decoration: line-through;
+}
+
+.saleText {
+	color: red;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#invoice_Info {
+	text-align: left;
+}
+
+.onlyInMobile {
+	display: none;
+}
+
+#quizTotalVotes {
+	display: block;
+	font-size: small;
+	text-align: center;
+	margin-top: 5px;
+}

@@ -1,0 +1,63 @@
+<!-- Anthony-Virgil Bermejo -->
+<!-- 0831360 -->
+<!-- invoiceStyle.css -->
+
+
+#list_invoice {
+	width: 600px;
+	float: left;
+}
+
+#list_invoice  th {
+	border: none;
+	background-color: #444;
+	color: white;
+	font-family: Cambria;
+	margin: 0px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#list_invoice td {
+	text-align: center;
+	border: none;
+	margin: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: none;
+}
+
+#list_invoice table {
+	width: 100%;
+	margin: 7px;
+	border: 1px solid black;
+}
+
+#list_invoice .tr2 {
+	background-color: #D3D5E7;
+}
+
+#list_invoice .bouton a {
+	height: 30px;
+	border: 1px solid black;
+	width: 150px;
+	float: left;
+	display: inline;
+	margin-right: 15px;
+	border-radius: 7px;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle; /* doesn't work, I want to center the text*/
+}
+
+#list_invoice .bouton {
+	margin-bottom: 50px;
+}
+
+#list_invoice #total {
+	text-align: right;
+}

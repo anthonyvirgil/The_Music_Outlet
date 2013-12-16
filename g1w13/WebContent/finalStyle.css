@@ -1,0 +1,39 @@
+.tip {
+	font-size: 0.85em;
+	color: gray;
+}
+
+.formClass label, .formClass select, .formClass input {
+	margin-top: 5px;
+}
+
+.formClass label {
+	display: block;
+	width: 150px;
+	text-align: left;
+}
+
+.formClass input {
+	display: inline;
+	text-align: left;
+}
+
+.formClass input[type="submit"] {
+	margin-right: 10px;
+}
+.formClass select, .formClass label{
+	display:inline;
+}
+
+#cardNum, #cardDiv{
+	display:inline;
+	float:left;
+}
+
+#cardDiv{
+	margin-left: 20px;
+}
+
+#bottomOfForm{
+	clear:both;
+}

@@ -1,0 +1,44 @@
+#infoParagraph {
+	color: red;
+	float: left;
+}
+
+#clearButton {
+	float: left;
+	margin-left: 25%;
+}
+
+#submitButton {
+	float: left;
+}
+
+.registrationTextFields {
+	font-size: 1em;
+	font-family: "Times New Roman";
+}
+
+.mandatoryFields {
+	color: red;
+}
+
+.formClass label,.formClass select,.formClass input {
+	margin-top: 5px;
+	text-align: left;
+	padding: 2px;
+}
+
+.formClass label {
+	display: block;
+	float: left;
+	clear: left;
+	width: 250px;
+	text-align: left;
+}
+
+.formClass select,.formClass input {
+	display: block;
+}
+
+#submitDiv{
+	clear:both;
+}

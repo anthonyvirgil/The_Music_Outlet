@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/g1w13">
+	<Resource 
+	    name="jdbc/g1w13" 
+	    auth="Container" 
+	    type="javax.sql.DataSource"
+		maxActive="20" 
+		maxIdle="30" 
+		maxWait="10000" 
+		username="g1w13" 
+		password="prafkaph"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://waldo2.dawsoncollege.qc.ca:3306/g1w13?autoReconnect=true" 
+	/>
+</Context>

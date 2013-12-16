@@ -1,0 +1,234 @@
+<!-- Dorian Mein, Natacha Gabbamonte -->
+<!-- mobile.css -->
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	width: 100%;
+}
+
+#header, #ad, #rightNav, .navH2, #slides .next, #slides .prev, .notInMobile, #slideDiv {
+	display: none;
+}
+
+#container, #frame{
+	width:90%;
+	height: 100px;
+}
+
+#example{
+	margin:0px;
+	padding:1%;
+	margin-top: 35px;
+	margin-bottom:0px;
+	width:40%;
+	height:115px;
+	float:left;
+}
+.slides_container{
+	width:auto;
+	height:auto;
+	
+}
+.slides_control{
+	width:100%;
+	height:100%;
+}
+.onlyInMobile{
+	display:inline;
+}
+#slideDiv{
+	float:left;
+}
+
+.slider_info{
+	float:left;
+}
+.slider_ico{
+/* 	padding-left:1%; */
+/* 	padding-top:1%; */
+	float:left;
+}
+#slideDiv h1{
+	font-size: medium;
+}
+
+#slideDiv h2{
+	font-size: small;
+}
+
+#slideDiv h3{
+	font-size: x-small;
+}
+
+.slides_container a img{
+	width: 50%;
+	height: auto;
+}
+
+.slides_container .slide, #slides{
+	width:100%;
+	height:100px;
+}
+
+#slideDiv{
+	width:100%;
+	height:100px;
+}
+
+#slideDiv a img,.slider_ico input {
+	height: 25px;
+	width: 25px;
+}
+
+#contentWrap{
+	clear:both;
+	width: 100%;
+	height:10px;
+}
+
+#mainContent{
+	width: 100%;
+	margin-left: -6px;
+	margin-bottom: 0px;
+	min-height:10px;
+}
+
+#mainContent .block{
+	width: 100%;
+	border-radius: 0px;
+	margin-bottom: 0px;
+/* 	margin-top: 20px; */
+	clear:both;
+}
+
+#contentWrap .block h2{
+	border-radius: 0px;
+}
+
+
+#header{
+	width: 100%;
+}
+
+#topNav{
+	position: static;
+	width:95%;
+}
+
+#footer{
+	width:100%;
+}
+
+#footer img{
+width:100px;
+}
+
+#footerContent {
+	margin-left:10px;
+}
+
+#footerContainer {
+	width: 100%;
+	margin: auto;
+}
+
+
+#categoriesBlock{
+	display:none;
+}
+
+#topNavSearchBar {
+	margin-top: 30px;
+	margin-left: -10px;
+	position: absolute;
+	height: 25px;
+	width: 95%;
+	background-image: url('images/topNavGradient.png');
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	background-color: #333;
+	padding: 5px 10px 5px 10px;
+	font-size: medium;
+}
+
+#topNavSearchBar form{
+	width: 95%;
+}
+
+#genreNavBar {
+	width: 52%;
+	float:left;
+	clear:none;
+	margin-bottom:20px;
+/* 	margin:auto; */
+/* 	margin-top: 30px; */
+/* 	display: block; */
+/* 	background: none; */
+	
+}
+
+#genreNavBar a:link, #genreNavBar a:visited{
+	height: 25px;
+	float: left;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+	border-bottom: solid 2px;
+	border-top: solid 2px;
+	border-color: #333;
+	border-right: 0px;
+}
+
+.sug_alb{
+	width: 65%;
+	margin-bottom: 10px;
+	margin-left: 25%
+}
+
+
+#list_search, #list_track, #list_shop, #list_invoice{
+	overflow:auto;
+}
+
+#contentWrap input[type="text"], #contentWrap input[type="password"]{
+	width:90%;
+}
+
+table{
+	font-size:small;
+}
+
+#footerBottom{
+	height:auto;
+}
+
+#ribbon{
+	width:50px;
+	height:auto;
+}
+
+.inBlock{
+	padding-right: 15%;
+}
+
+#leftOfLogoDiv {
+	float: left;
+	width: 100%;
+	color: white;
+	position: fixed;
+	top: 32px;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 0px;
+	background-color: gray;
+	border: solid 2px #c3c3c3;
+	border-radius: 0px 0px 15px 15px;
+	z-index: 600;
+	height: auto;
+	position: fixed;
+}

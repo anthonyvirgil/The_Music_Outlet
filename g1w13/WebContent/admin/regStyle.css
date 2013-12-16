@@ -1,0 +1,71 @@
+#infoParagraph {
+	color: red;
+	float: left;
+}
+
+#clearButton {
+	float: left;
+	margin-left: 25%;
+}
+
+#submitButton {
+	float: left;
+}
+
+.textFields {
+	font-size: 1em;
+	font-family: "Times New Roman";
+}
+
+.mandatoryFields {
+	color: red;
+}
+
+.formClass label,.formClass select,.formClass input {
+	margin-top: 5px;
+	text-align: left;
+	padding: 2px;
+}
+
+.formClass label {
+	display: block;
+	float: left;
+	clear: left;
+	width: 250px;
+	text-align: left;
+}
+
+.formClass select,.formClass input {
+	display: block;
+}
+
+.buttonGroup {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.buttonGroup form {
+	display: inline;
+}
+
+.buttonGroup input[type=submit],.buttonGroup input[type=reset],.buttonGroup input[type=button]
+	{
+	height: 30px;
+	border: 1px solid black;
+	width: 150px;
+	margin-top: 10px;
+	border-radius: 7px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.buttonGroup a {
+	text-decoration: none;
+}
+
+.buttonGroup input[type=reset]:hover,.buttonGroup input[type=submit]:hover,.buttonGroup input[type=button]:hover
+	{
+	background-color: white;
+}

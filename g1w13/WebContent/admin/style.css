@@ -1,0 +1,549 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+html {
+	background-image: url('images/mainBack.png');
+	background-color: #f5f5f5;
+	background-repeat: repeat-x;
+	font-family: Times New Roman, Arial;
+	text-align: center;
+}
+
+img {
+	border: none;
+}
+
+.end {
+	clear: both;
+}
+
+a:link,a:visited {
+	color: gray;
+}
+
+a:hover,a:active {
+	color: white;
+}
+
+.error {
+	color: red;
+}
+
+#topNav {
+	height: 25px;
+	width: 100%;
+	background-image: url('images/topNavGradient.png');
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	background-color: #333;
+	color: white;
+	position: fixed;
+	top: 0px;
+	padding: 5px 10px 5px 10px;
+	z-index: 1000;
+	font-size: medium;
+}
+
+#topNavLogo {
+	width: 75px;
+	height: 25px;
+	float: left;
+	background-image: url('images/toplogo.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#topNavManag {
+	float: left;
+	display: inline;
+	height: 25px;
+	margin-left: 10px;
+}
+
+#topNavDeco {
+	float: right;
+	height: 25px;
+	margin-right: 15px;
+}
+
+#topNav a:link,#topNav a:visited {
+	text-decoration: underline;
+	color: white;
+}
+
+#topNav a:hover,#topNav a:active {
+	text-decoration: none;
+	color: black;
+}
+
+#header {
+	margin: auto;
+	width: 800px;
+	margin-top: 50px;
+	text-align: left;
+	height: 156px;
+}
+
+#logoDiv {
+	width: 400px;
+	float: left;
+	height: 156px;
+}
+
+#leftOfLogoDiv {
+	float: left;
+	width: 400px;
+	height: 156px;
+}
+
+#genreNavBar {
+	width: 525px;
+	height: 50px;
+	clear: both;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+
+#contentManag {
+	width: 700px;
+	margin: auto;
+	text-align: left;
+	margin-top: 20px;
+}
+
+#contentView {
+	width: 1100px;
+	min-height: 650px;
+	margin: auto;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.mblock {
+	width: 100%;
+	background-color: #eeeff3;
+	margin-bottom: 30px;
+	-webkit-box-shadow: -1px 1px 12px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow: -1px 1px 12px rgba(50, 50, 50, 0.55);
+	box-shadow: -1px 1px 12px rgba(50, 50, 50, 0.55);
+	border: 3px solid #444444;
+	background-image: url('images/contentBlockBack.png');
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	border-radius: 15px;
+}
+
+div .inBlock {
+	padding: 10px;
+}
+
+#contentManag h2,#contentView h2 {
+	font-size: large;
+	width: 95%;
+	padding-left: 5%;
+	text-align: left;
+	font-family: Cambria;
+	font-weight: bold;
+	text-shadow: 1px 1px #888;
+	color: white;
+	background-color: #444444;
+	background-image: url('../images/headingBack.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#frontdoor {
+	min-height: 600px;
+}
+
+#td_banner {
+	height: auto;
+	width: 150px;
+	padding: 1px;
+}
+
+td img {
+	height: 50px;
+	width: 150px;
+	padding: 1px;
+}
+
+#viewInv td .albumCover {
+	width: 50px;
+}
+
+td a img,.invButtons form input[type="image"],td .invButtons a img {
+	height: 22px;
+	width: 22px;
+	display: inline-block;
+}
+
+.mblock ul {
+	list-style-type: none;
+	text-color: red;
+	float: left;
+}
+
+.mblock li {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.mblock li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.4em;
+}
+
+.mblock li h3 {
+	display: none;
+}
+
+#addTrackDiv h3,#addAlbumDiv h3,#editAlbumDiv h3,#editTrackDiv h3,#editSaleAlbumDiv h3,#editSaleTrackDiv h3
+	{
+	font-size: large;
+	text-align: left;
+	margin-left: -2px;
+	font-family: Times New Roman;
+	color: black;
+	margin-bottom: 15px;
+}
+
+#editSaleAlbumDiv,#editSaleTrackDiv {
+	text-align: left;
+}
+
+.mblock li:hover h3 {
+	display: inline;
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.mblock a:hover {
+	color: #999999;
+}
+
+.mblock form {
+	text-align: left;
+}
+
+h3 {
+	font-size: medium;
+	text-align: left;
+	margin-left: -2px;
+	font-family: Times New Roman;
+	color: black;
+	clear: both;
+}
+
+h4 {
+	font-size: large;
+	text-align: left;
+	margin-left: -2px;
+	font-family: Times New Roman;
+	border-bottom: 1px dotted #444;
+	color: #444;
+	margin-bottom: 15px;
+	clear: both;
+	/* 	background-color: #444444; */
+}
+
+#edit img {
+	width: 120px;
+	height: 120px;
+}
+
+#edit {
+	margin-bottom: 25px;
+	height: 320px;
+}
+
+#edit h5 {
+	margin-bottom: 15px;
+	text-align: left;
+	margin-left: 170px;
+	font-size: large;
+}
+
+#edit ul {
+	list-style-type: none;
+}
+
+#edit li {
+	text-align: left;
+	margin-left: 100px;
+}
+
+#editAlbumDiv img,#editTrackDiv img {
+	height: 250px;
+	width: 250px;
+	float: left;
+	margin-right: 10px;
+}
+
+#editSaleAlbumDiv img,#editSaleTrackDiv img {
+	height: 230px;
+	width: 230px;
+	float: left;
+	margin-right: 10px;
+}
+
+#editSaleAlbumDiv #salePrice,#editSaleTrackDiv #salePrice {
+	width: 5em;
+}
+
+.banner img {
+	margin-bottom: 10px;
+	height: 100px;
+	width: 400px;
+}
+
+.banner {
+	margin-bottom: 20px;
+}
+
+.right_ad img {
+	margin-bottom: 10px;
+	height: 200px;
+}
+
+#ad form {
+	text-align: center;
+	display: inline;
+}
+
+#ad .right_ad .button a img {
+	vertical-align: 80px;
+}
+
+#ad .banner .button a img {
+	vertical-align: 30px;
+}
+
+#ad form .button a img {
+	height: 40px;
+	width: 40px;
+	margin-left: 10px;
+}
+
+#ad form .button input {
+	vertical-align: 50px;
+	margin-right: 10px;
+}
+
+#ad .right_ad .button input {
+	vertical-align: 100px;
+	margin-right: 10px;
+}
+
+#survey  p {
+	text-align: left;
+}
+
+#survey form a img {
+	height: 20px;
+	width: 20px;
+	margin-left: 10px;
+	vertical-align: -5px;
+}
+
+#feed form {
+	text-align: center;
+}
+
+#feed h5 {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#feed img {
+	height: 22px;
+	width: 22px;
+	vertical-align: -5px;
+}
+
+.review {
+	width: 26%;
+	padding: 1%;
+	float: left;
+	text-align: left;
+	border: 1px solid;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	height: 300px;
+	background-color: #D3D5E7;
+	overflow: auto;
+}
+
+.reviewComment {
+	height: 70px;
+	overflow: auto;
+}
+
+.review h4 {
+	font-size: large;
+	float: left;
+}
+
+#reviewSearch h4 {
+	float: left;
+}
+
+.reviewTrackTitle {
+	clear: both;
+	padding-left: 20px;
+}
+
+.review form {
+	display: inline;
+}
+
+#ratingImg {
+	height: 20px;
+	float: right;
+}
+
+#review p {
+	text-align: left;
+}
+
+.list_report {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#list_client th,#list_order th,#list_view th,.list_report th,#ad th {
+	border: none;
+	background-color: #444;
+	color: white;
+	font-family: Cambria;
+	margin: 0px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-family: Cambria;
+	width: 600px;
+}
+
+#list_client td,#list_order td,#list_view td,.list_report td,#ad td {
+	border: none;
+	margin: 0px;
+	padding: 3px;
+	word-wrap: break-word;
+}
+
+#list_client table,#list_order table,#list_view table,.list_report table
+	{
+	word-wrap: break-word;
+	border: 1px solid black;
+}
+
+#list_client .tr2,#list_order .tr2,#list_view .tr2,.list_report .tr2 {
+	background-color: #D3D5E7;
+}
+
+#list_client a,#list_order a,#list_view a,.list_report a {
+	text-decoration: none;
+	color: #444;
+	font-size: normal;
+}
+
+#list_client b,#list_order b,#list_view b,.list_report b {
+	font-size: large;
+}
+
+#list_client a:hover,#list_order a:hover,#list_view a:hover,.list_report a:hover
+	{
+	color: black;
+	font-size: large;
+}
+
+#editProfileDiv p {
+	margin-bottom: 10px;
+}
+
+.buttonGroup {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.buttonGroup form {
+	display: inline;
+}
+
+.buttonGroup input[type=submit],.buttonGroup input[type=button],.buttonGroup input[type=reset]
+	{
+	height: 30px;
+	/* 	border: 1px solid black; */
+	width: 150px;
+	margin-top: 10px;
+	border-radius: 7px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	background-color: #CCC;
+	font-weight: bold;
+}
+
+.buttonGroup a {
+	text-decoration: none;
+}
+
+.buttonGroup input[type=submit]:hover,.buttonGroup input[type=button]:hover,.buttonGroup input[type=reset]:hover
+	{
+	border-top: 2px solid #8c8c8c;
+	border-left: 2px solid #8c8c8c;
+	border-bottom: 2px solid #f9f9f9;
+	border-right: 2px solid #f9f9f9;
+	color: #444;
+	background-color: #EEE;
+	font-weight: bold;
+}
+
+.review .buttonGroup { /* 	margin:0px; */
+	width: 100%;
+}
+
+.review a img,.review input[type="submit"] {
+	float: left;
+	width: 47%;
+	margin: 1%;
+	font-size: x-small;
+}
+
+.invButtons form {
+	display: inline;
+}
+
+#invoice_Info {
+	text-align: left;
+}
+
+.right {
+	clear: both;
+	text-align: right;
+}
+
+#totalsReport p {
+	text-align: left;
+}
+
+.list_report p {
+	text-align: left;
+}
+
+#survey ul {
+	list-style-type: disc;
+	margin-left: 30px;
+}
